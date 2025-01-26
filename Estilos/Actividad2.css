@@ -45,8 +45,17 @@ nav{
     font-size: 17px;
 }
 
+.menu  li :hover{
+color: black;
+text-decoration:underline;
+}
 
-
+.menu :hover{
+    transform: scale(1.2);
+}
+.iconos :hover{
+    transform: scale(1.2);
+}
 .iconos{
     float: left;
     width: 30%;
@@ -54,6 +63,7 @@ nav{
     background-color: cadetblue;
     line-height: 80px;
 }
+
 
 .iconos ul li{
     display: inline-block;
@@ -64,7 +74,6 @@ nav{
 .iconos i{
     font-size: 20px;
 }
-
 
 
 header{
