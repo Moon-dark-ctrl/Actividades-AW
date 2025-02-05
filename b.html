@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos/b.css">
+</head>
+<body>
+    <div class="contenedor"></div>
+    <form action="#" method="get">
+    <p>
+        <label for="nombre">Nombre</label><br>
+    <input type="text" id="nombre" name="nombre" autofocus placeholder="Escribe tu nombre" required size="50">
+    </p>
+
+    <p>
+        <label for="apellido">Apellido</label><br>
+    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido" required size="50" title="favor enviar apellido">
+    </p>
+
+    <p>
+        <input type="submit" name="enviar" value="enviar">
+    </p>
+    </form>
+    <p>
+        <label for="gener">Genero</label><br>
+        <input type="text" id="genero" name="genero" value="Femenino"
+        readonly size="50">
+    </p>
+
+    <p>
+        <input type="hidden" id="clave" name="clave" value="1000">
+    </p>
+
+    <p>
+        <label for="comentarios">Comentarios</label> <br>
+        <textarea name="comentarios" id="comentarios" required cols="50" rows="6"></textarea>
+    </p>
+
+    <p>
+        <label for="seleccion">Estado</label><br>
+        <select name="seleccion" id="seleccion" required>
+            <option value="">Seleccione municipio</option>
+            <option value="1">Etaquetepec</option>
+            <option value="2">Nezahualcoyolt</option>
+            <option value="3">Naucalpal</option>
+        </select>
+    </p>
+</body>
+</html>
+
+
+<!--Auto focus = a indicar donde sale primero-->
+<!--Leyenda en el cuadro del "input placeholder"-->

@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(252, 195, 39), rgb(252, 5, 240));;
+    color: rgb(136, 17, 73)
+}
+
+.contenedor{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.cabeza{
+    height: 200px;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url(../Fondo.jpg);
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h1{
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.ingresar{
+    width: 400px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(136, 17, 73);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.2em;
+    border: 2px black outset
+    ;
+}
+
+nav{
+    background-color: rgb(165, 116, 42);
+    height: 60px;
+    text-align: right;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.circulo{
+    border-radius: 25px;
+}
+
+.menu{
+    float: left;
+    width: 80%;
+    line-height: 60px;
+    text-align: right;
+    background-color: rgb(165, 116, 42)
+}
+
+.menu ul li{
+    display: inline;
+    margin: 0px 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white
+}
+.menu i{
+    color: white;
+    padding-right: 5px;
+}
+
+.principal{
+clear: both;
+}
+
+.uno{
+    float: left;
+    width: 50%;
+    border: 2px black solid;
+    border-radius: 10px;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.dos{
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+    padding: 20px;
+}
+
+.uno p{
+    text-align: justify;
+    font-size: 1.1em;
+    padding: 10px;
+}
+.dos p{
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.uno, .dos p{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.dos h2{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.uno h2{
+    text-align: center;
+    color: whitesmoke
+}
+
+.tarjeta{
+clear: both;
+text-align: center;
+}
+
+.tres, .cuatro, .cinco{
+    float: left;
+    width: 33.3%;
+    margin-top: 30px;
+    border: 1px silver solid;
+    border-radius: 30px;
+    padding: 20px;
+    background: rgb(233, 233, 233);
+    margin-bottom: 20px;
+}
+
+.tres p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+.secundario{
+    clear: both;
+    }
+    
+.seis{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.siete{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px bl solid;
+    border-radius: 20px;
+}
+
+.seis p{
+    text-align: justify;
+    font-size: 1em;
+    padding: 30px;
+}
+.siete p{
+    text-align: justify;
+    font-size: 1em;
+    padding: 10px;
+    font-family: cursive;
+}
+
+.seis, .siete p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.seis h2{
+    text-align: left;
+    color: whitesmoke;
+}
+
+.siete h2{
+    text-align: left;
+    color: whitesmoke
+}
+.cuatro p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+
+.cinco p{
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.1em;
+    color: black;
+}
+
+.redes{
+    float: left;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.redes ul li{
+    display: inline;
+    margin: 0px 50px;
+}
+
+.redes i{
+    color: white;
+}
+
+.vertical{
+    float: left;
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+}
+
+.vertical ul li{
+    display: inline;
+    margin: 0px 50px;
+    color: white;
+}
+
+.pie{
+    clear: both;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+   
+   }
+
+   hr{
+    width: 80%;
+    margin: 10px auto;
+    border: 1px silver solid;
+   }
+   
+
+
+   .comentarios {
+    clear: both;
+    background-color: #fff; /* Color de fondo para el formulario */
+    border: 1px solid #ccc; /* Borde */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    max-width: 500px; /* Ancho máximo */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: auto; /* Centrar horizontalmente */
+}
+
+.comentarios h3 {
+    text-align: center; /* Centrar el título */
+    margin-bottom: 15px;
+    color: #333; /* Color de texto para el título */
+}
+
+.comentarios label {
+    display: block; /* Etiquetas encima de los campos */
+    margin-bottom: 5px;
+    color: #555; /* Color de texto para las etiquetas */
+}
+
+.comentarios input[type="text"],
+.comentarios input[type="email"],
+.comentarios textarea {
+    width: calc(100% - 10px); /* Ancho completo menos el padding */
+    padding: 8px; /* Aumentar el padding */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Incluir padding y borde en el ancho */
+    border-radius: 3px; /* Bordes redondeados para los campos */
+}
+
+.comentarios input[type="submit"] {
+    background-color: #007bff; /* Color azul */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px; /* Bordes redondeados para el botón */
+    
+}
+
+.comentarios input[type="submit"]:hover {
+    background-color: #0056b3; /* Color azul más oscuro al pasar el ratón */
+}
+
+#enviar{
+    margin-left: 40%;
+}
