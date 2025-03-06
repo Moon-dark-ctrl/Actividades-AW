@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/Kami.webp);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.contenedor{
+    width: 95%;
+    margin: 5px auto;
+    /*Propiedades flex*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+
+.logo{
+    width: 10%;
+    background-color: rgb(209, 110, 17);
+}
+
+.logo img{
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.menu{
+    width: 80%;
+    background-color: rgb(209, 110, 17);
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 15%;
+    line-height: 120px;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu  ul :hover{ 
+    transform: scale(1.05); 
+    cursor: pointer; 
+}
+.redes{
+    width: 10%;
+    background-color: rgb(209, 110, 17);
+}
+
+
+.redes i{
+    color:white ;
+}
+.redes ul li{
+    display: inline-block;
+    margin-left: 15%;
+    line-height: 120px;
+
+}
+
+
+.cabeza{
+    width: 100%;
+    border: 1px black solid;
+    background-image: url(/CHALA.jpg);
+    background-size: 100% 50%;
+    background-attachment: fixed;
+    
+
+}
+
+.eslogan{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.eslogan h2{
+    font-size: 30px;
+    color: white;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.titulo h3{
+    font-size: 50px;
+}
+.boton{
+    width: 100%;
+}
+
+.boton button{
+display: block;
+margin: 0px auto;
+width: 200px;
+background-color: black;
+color: whitesmoke;
+border-radius: 10%;
+border: none;
+height: 40px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.boton button:hover{
+     background-color: rgb(202, 144, 89);
+    box-shadow: 0 0 10px rgb(160, 105, 95); 
+    transform: scale(1.05); 
+    cursor: pointer; 
+}
+.tarjeta{
+    width: 33%;
+    border: 1px black solid;
+    padding-bottom: 20px;
+}
+
+.tarjeta p{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.circulo {
+width: 100%;
+
+}
+.circulo img{
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+.texto{
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.ver{
+    width: 100%;
+}
+.ver button{
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 10%;
+    border: none;
+    height: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.ver :hover{
+    background-color: rgb(202, 144, 89);
+    box-shadow: 0 0 10px rgb(160, 105, 95); 
+    transform: scale(1.05); 
+    cursor: pointer; 
+}
+
+.izq{
+    width: 40%;
+    border: 1px black solid;
+}
+
+.im{
+    float: left;
+    width: 40%;
+    
+}
+
+.im img{
+
+ margin: 80px  2px 100px 100px;
+ border-radius: 50%;
+}
+
+.parrafo{
+    float: left;
+    width: 60%;
+    
+
+}
+
+.parrafo p{
+    text-align: left;
+    padding-top: 60px;
+    padding-right: 30px;
+}
+
+.cajita{
+    width: 80%;
+    float: left;
+    text-align: center;
+    border: 1px black solid;
+    margin: 60px 60px 50px 50px;
+}
+.dere{
+    width: 60%;
+    border: 1px black solid;
+}
+
+.formulario{
+    padding-top: 20px;
+    clear: both;
+    width: 100%;
+    border: 1px black solid;
+    margin: 0px auto;
+}
+
+.comentarios{
+    height: 350px; 
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+    background-color: rgba(40, 41, 49, 0.849);
+    clear: both;
+    width: 40%;
+    margin: 0px auto;
+    border-radius: 50%;
+    padding-top:62px;
+}
+
+.fo{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.comentarios input[type="text"]{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+
+.comentarios input[type="email"]{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+    
+}
+
+
+input::placeholder {
+    color: rgb(82, 82, 82); /* Cambia el color aquí */
+   
+  }
+
+.comentarios textarea{
+    width: 70%;
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.comentarios input[type="submit"]{
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
+    margin: 0px auto;
+}
+
+input[type="submit"]:hover {
+    color: whitesmoke;
+    background-color: rgb(226, 137, 85);
+    box-shadow: 0 0 10px rgb(226, 137, 85);
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+footer{
+    width: 160%;
+    border: 1px black solid;
+}
+
+.vertical{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.vertical ul li{
+    display: inline-block;
+    padding-left: 15%;
+}
+
+/*PROPORCIONAR LAS IMAGENES*/
+@media only screen and (max-width:800px){
+    .logo, .menu, .redes{
+        width: 100%;
+    }
+
+    .tarjeta{
+        width: 100%;
+    }
+
+    .izq{
+        width: 100%;
+    }
+
+    .dere{
+        width: 100%;
+    }
+
+    .boton{
+        width: 100%;
+    }
+
+    .boton button{
+        display: block;
+        margin: 0px auto;
+    }
+    .ver{
+        width: 100%;
+    }
+
+    .ver button{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .menu ul ,li{
+        text-align: center; 
+    }
+
+    .redes ul li{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .tarjeta img{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .im img{
+        display: block;
+        margin: 0px auto;
+    }
+
+    .im{
+        margin-top: 30px;
+    }
+
+}
