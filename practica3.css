@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(/Kami.webp);
+    background-image: url(Kami.webp);
     background-size: 100% 100%;
     background-attachment: fixed;
 }
@@ -73,7 +73,7 @@ body{
 .cabeza{
     width: 100%;
     border: 1px black solid;
-    background-image: url(/CHALA.jpg);
+    background-image: url(CHALA.jpg);
     background-size: 100% 50%;
     background-attachment: fixed;
     
